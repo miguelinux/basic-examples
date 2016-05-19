@@ -48,7 +48,7 @@ being as portable. The main reasons are:
 In Short:
 
 > [ ] are bash Builtins
-
+>
 > [[ ]] are bash Keywords
 
 **Keywords**: Keywords are quite like builtins, but the main difference is
@@ -57,6 +57,17 @@ builtin, while `[[` is a bash keyword. They are both used for testing
 stuff, but since `[[` is a keyword rather than a builtin, it benefits
 from a few special parsing rules which make it a lot easier:
 
+``` bash
+$ [ a < b ]
+-bash: b: No such file or directory
+$ [[ a < b ]]
+```
+The first example returns an error because bash tries to redirect the file
+b to the command [ a ]. The second example actually does what you expect
+it to. The character < no longer has its special meaning of File
+Redirection operator.
+
+Source: http://mywiki.wooledge.org/BashGuide/CommandsAndArguments
 
 # References
 
