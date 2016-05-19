@@ -48,6 +48,7 @@ being as portable. The main reasons are:
 In Short:
 
 > [ ] are bash Builtins
+
 > [[ ]] are bash Keywords
 
 **Keywords**: Keywords are quite like builtins, but the main difference is
