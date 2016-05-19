@@ -1,6 +1,6 @@
 # Single and Double square brackets in Bash
 
-There are several differences [<a href="1">1</a>]. In my opinion, a few of
+There are several differences [<a href="#1">1</a>]. In my opinion, a few of
 the most important are:
 
 1. `[` is a builtin in Bash and many other modern shells. The builtin `[` is
