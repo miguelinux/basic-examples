@@ -73,3 +73,8 @@ Source: http://mywiki.wooledge.org/BashGuide/CommandsAndArguments
 
 <a name="1">1</a>. http://serverfault.com/questions/52034/what-is-the-difference-between-double-and-single-square-brackets-in-bash
 
+### Others resources
+
+* http://stackoverflow.com/questions/13542832/what-is-the-difference-between-single-and-double-square-brackets-in-bash
+* http://stackoverflow.com/questions/14496428/meaning-of-double-square-brackets-in-bash
+
